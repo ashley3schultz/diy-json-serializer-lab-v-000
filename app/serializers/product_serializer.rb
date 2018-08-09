@@ -1,5 +1,4 @@
 class ProductSerializer
-
   def self.serialize
     serialized_product = '{'
     serialized_product += '"id": ' + product.id.to_s + ', '
@@ -9,5 +8,4 @@ class ProductSerializer
     serialized_product += '"price": "' + product.price.to_s + '"'
     serialized_product += '}'
   end
-
 end
