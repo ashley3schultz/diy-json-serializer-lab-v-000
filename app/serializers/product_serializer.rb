@@ -1,5 +1,5 @@
 class ProductSerializer
-  def self.serialize
+  def self.serialize(product)
     serialized_product = '{'
     serialized_product += '"id": ' + product.id.to_s + ', '
     serialized_product += '"name": "' + product.name + '", '
